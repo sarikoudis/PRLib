@@ -35,7 +35,7 @@ set(SOURCES src/logger.hpp src/logger.cpp src/BlurDetection.hpp
 set(CMAKE_BUILD_TYPE Debug)
 
 
-include_directories( ${CMAKE_BINARY_DIR} ${PROJECT_SOURCE_DIR}/src)
+include_directories( ${CMAKE_BINARY_DIR} ${PROJECT_SOURCE_DIR}/src ${PROJECT_SOURCE_DIR}/include)
 
 add_library(prlib SHARED ${SOURCES})
 
